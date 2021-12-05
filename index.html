@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hw-9</title>
+    <link rel="stylesheet" href="style/global-style.css">
+    <link rel="stylesheet" href="style/layot.css">
+</head>
+
+<body>
+    <h2>
+        Реализуйте грид контейнер с областями:
+        header, main-section, content-section,
+        info-section, footer.
+        Напишите медиа запрос для изменения
+        отображения этих областей на
+        разрешения меньше 768рх и 480рх
+    </h2>
+    <div class="container h-m-c-i-f">
+        <div class="block lime">header</div>
+        <div class="block red">main-selection</div>
+        <div class="block darkblue">content-section</div>
+        <div class="block yellow">info-section</div>
+        <div class="block lime">footer</div>
+    </div>
+    <h2>
+        Создать грид контейнер и
+        сделать анимацию изменения
+        размеров при размере разрешения
+        экрана меньше 960рх.
+    </h2>
+    <div class="container d-grid anim-size-min960">
+        <div class="block lime">1</div>
+        <div class="block darkgreen">2</div>
+        <div class="block yellow">3</div>
+        <div class="block darkblue">4</div>
+        <div class="block red">5</div>
+        <div class="block lime">6</div>
+    </div>
+    <h2>
+        Создать блок высотой 300рх и
+        задать значение рядам 50рх 1fr 50рх
+        и для второго блока margin 50px
+    </h2>
+    <div class="container d-grid block-width-rows-margin">
+        <div class="block lime">1</div>
+        <div class="block darkblue">2</div>
+        <div class="block darkgreen">3</div>
+    </div>
+    <div>
+</body>
+
+</html>
